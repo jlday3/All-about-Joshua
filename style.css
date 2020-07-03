@@ -1,0 +1,99 @@
+body{
+	background-color: #ededed;
+	color: #666666;
+}
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	min-width: 960px;
+	max-width: 2048px;
+} 
+header {
+	background-color: #0e6ae3;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#navbar {background-color: #e3870e;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	font-weight: bold;
+}
+#navbar a:link { color: #ffffff; }
+#navbar a:visited {color: #ffd700; }
+#navbar a:hover { color: blue; }
+#navbar a { text-decoration: none;
+		color: white;
+		font-size: 1.8em;
+}
+nav ul { list-style-type: none;}
+nav li { display: inline;
+		 padding: 0.25em 0.75em; 
+}
+main { padding: 1px 20px 20px 30px; }
+
+.favoriteThing {
+	height: 430px;
+}
+
+#heroImage {
+	background-image: url(hero.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 { color: #0b52b5; 
+	text-align: center;
+}
+.fRow {
+	width: 100%;
+	height: 300px;
+	display: table;
+}
+.food {
+		color: red;
+		margin-top: 5px;
+}
+.travel {
+		color: green;
+		margin-top: 5px;
+}
+.video {
+		color: #e36709;
+		margin-top: 5px;
+}
+.image2 img
+{
+	float: left;
+	width: 30%;
+	height: 300px;
+	margin-top: 20px;
+	padding-left: 25px;
+}
+h3 {
+	padding-right: 30px;
+	padding-left: 20px;
+}
+footer {text-align: center;
+		padding: 2px 0;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 78.5%;
+}
+
+.sticky + .container {
+	padding-top: 20px;
+}
