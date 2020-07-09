@@ -20,20 +20,23 @@ h1 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-#navbar {background-color: #e3870e;
+nav {background-color: #e3870e;
 	text-align: center;
 	font-size: 15px;
 	padding: 5px;
 	font-weight: bold;
 }
-#navbar a:link { color: #ffffff; }
-#navbar a:visited {color: #ffd700; }
-#navbar a:hover { color: blue; }
-#navbar a { text-decoration: none;
+nav a:link { color: #ffffff; }
+nav a:visited {color: #ffd700; }
+nav a:hover { color: blue; }
+nav a{ text-decoration: none;
 		color: white;
 		font-size: 1.8em;
 }
-nav ul { list-style-type: none;}
+nav ul { list-style-type: none;
+		 margin-top: 0;
+		 margin-bottom: 0;
+}
 nav li { display: inline;
 		 padding: 0.25em 0.75em; 
 }
@@ -80,7 +83,7 @@ h2 { color: #0b52b5;
 	margin-top: 20px;
 	padding-left: 25px;
 }
-h3 {
+p {
 	padding-right: 30px;
 	padding-left: 20px;
 }
